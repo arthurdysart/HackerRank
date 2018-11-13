@@ -15,7 +15,7 @@ import sys
 ## MODULE DEFINITIONS
 class Solution:
     """
-    Iteration over all characters in string.
+    Iteration over all characters in array.
     Time complexity: O(n)
         - Traverse array with at least one single-space jump
     Space complexity: O(1)
