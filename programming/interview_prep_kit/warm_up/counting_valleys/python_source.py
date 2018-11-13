@@ -31,6 +31,9 @@ class Solution:
         :return: number of valleys
         :rtype: int
         """
+        if (not n or
+            not s):
+            return -1
 
         v = 0
         p = 0

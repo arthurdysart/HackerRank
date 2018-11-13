@@ -31,6 +31,9 @@ class Solution:
         :return: minimum number of movements to traverse array
         :rtype: int
         """
+        if (not n or
+            not a):
+            return -1
 
         # Initialize jump counter and location pointer
         c = 0
