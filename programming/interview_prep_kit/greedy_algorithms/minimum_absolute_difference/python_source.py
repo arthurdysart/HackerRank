@@ -27,6 +27,7 @@ class Solution:
         """
         Determines minimum absolute difference between array elements.
 
+        :param int n: number of elements in input array
         :param list[int] a: input array of integers
         :return: minimum absolute difference in array
         :rtype: int
@@ -55,8 +56,8 @@ class Input:
         Imports standard input.
 
         :param _io.TextIOWrapper sys_stdin: standard input
-        :return: input array of integers
-        :rtype: list[int]
+        :return: number of elements and input array of integers
+        :rtype: tup[int, list[int]]
         """
         inputs = [x.strip("[]\"\n")
                   for x
